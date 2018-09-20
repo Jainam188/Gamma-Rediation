@@ -18,5 +18,5 @@ Use pip to install any missing dependencies
 
 To run the demo code, after installing the dependencies, just run the following in terminal
 
-python3 demo.py
+python3 Classifier Gamma Rediation.py
 
