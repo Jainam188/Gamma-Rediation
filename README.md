@@ -14,7 +14,7 @@ pandas
 
 Use pip to install any missing dependencies
 
-Usage
+#Usage
 
 To run the demo code, after installing the dependencies, just run the following in terminal
 
