@@ -3,10 +3,10 @@ from sklearn.model_selection import train_test_split
 import pandas as pd
 import numpy as np
 
-#load the data
+#Read CSV File
 telescope=pd.read_csv('MAGIC Gamma Telescope Data.csv').fillna(method='ffill')
 
-#clean the data
+#Shuffle the Data
 telescope_shuffle=telescope.iloc[np.random.permutation(len(telescope))]
 tele=telescope_shuffle.reset_index(drop=True)
 
